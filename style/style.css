@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	background-color: #7e5a6b;
+	background: linear-gradient(162deg, #7e5a6b, #3f3756);
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+#centercontent {
+	max-width: 300px;
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#weathercontent {
+	background: linear-gradient(200deg, #5bb8cc, #e5e4c3);
+	width: 100%;
+	height: 70vh;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+	border-radius: 10px;
+	box-shadow: 8px 8px 20px 2px #23123f;
+}
+
+#changeLoc {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 3px;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+}
+
+/******************/
+/*  CONTENT NEXT  */
+/******************/
+
+#temp {
+	font-size: 15vh;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	color: white;
+}
+
+#weathername {
+	text-align: center;
+	font-size: 4vh;
+	font-family: 'Rubik', sans-serif;
+	color: white;
+}
+
+#mountain {
+	display: flex;
+	height: 43vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#mountainImg {
+	width: 100%;
+	text-align: center;
+	/* background-color: #fff; */
+}
+
+/******************/
+/*  CHOOSE CITY   */
+/******************/
+
+#headOfChoose {
+	text-align: center;
+	font-size: 4vh;
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	margin-top: 2vh;
+}
